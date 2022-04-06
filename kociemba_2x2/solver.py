@@ -56,11 +56,10 @@ def solve(cubestring):
     search(co_cube.cornperm, co_cube.corntwist, [], togo)
 
     s = ''
-    for i in range(len(solutions)):  # use  range(min(len(solutions), 1)) if you want to return only a single solution
+    for i in range(min(len(solutions),1)):  # use  range(min(len(solutions), 1)) if you want to return only a single solution
         ps = ''
         for m in solutions[i]:
             ps += m.name + ' '
-        ps += '(' + str(len(ps)//3) + 'f)\r\n'
         s += ps
     return s
 ########################################################################################################################
