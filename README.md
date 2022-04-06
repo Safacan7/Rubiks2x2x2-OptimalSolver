@@ -1,0 +1,1 @@
+Hi working on a school project to solve 2x2 rubik's cube
