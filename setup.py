@@ -7,7 +7,7 @@ with open("README.md", "r") as readme_file:
     readme = readme_file.read()
 
 setup(
-    name='kociemba',
+    name='Rubiks2x2x2-OptimalSolver',
     version='1.2.1',
     description='Python implementation of Herbert Kociemba\'s 2x2 optimal solver',
     long_description=readme,
