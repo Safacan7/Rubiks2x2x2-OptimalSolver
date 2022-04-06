@@ -7,7 +7,7 @@ with open("README.md", "r") as readme_file:
     readme = readme_file.read()
 
 setup(
-    name='Rubiks2x2x2-OptimalSolver',
+    name='kociemba_2x2',
     version='1.2.1',
     description='Python implementation of Herbert Kociemba\'s 2x2 optimal solver',
     long_description=readme,
@@ -21,9 +21,5 @@ setup(
     classifiers=(
         'Development Status :: 5 - Production/Stable',
         'Programming Language :: Python',
-    ),
-    setup_requires=['pytest-runner', "cffi>=1.0.0"],
-    tests_require=['pytest', ],
-    zip_safe=False,
-    install_requires=["cffi>=1.0.0", 'future'],
+    )
 )
