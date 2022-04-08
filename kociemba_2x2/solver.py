@@ -1,10 +1,10 @@
 # ###################### The solve function computes all optimal solving maneuvers #####################################
-import face
-import cubie
-import coord
-import enums as en
-import moves as mv
-import pruning as pr
+from kociemba_2x2 import face
+from kociemba_2x2 import cubie
+from kociemba_2x2 import coord
+from kociemba_2x2 import enums as en
+from kociemba_2x2 import moves as mv
+from kociemba_2x2 import pruning as pr
 from defs import N_TWIST
 
 solutions = []
