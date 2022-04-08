@@ -1,2 +1,1 @@
-from kociemba_2x2 import solver
-from solver import solve
+from .solver import solve
